@@ -29,7 +29,7 @@ p {
 
 #top-container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     margin: 0;
     padding-top: 100px;
 }
