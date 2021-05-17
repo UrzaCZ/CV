@@ -49,5 +49,9 @@ p {
 .insider {
     width: 50%;
     margin: auto;
-    padding: 53px 0 150px 0;
+    padding-top: 53px;
+}
+
+.footer-links a {
+    margin: 15px;
 }
