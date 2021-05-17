@@ -30,7 +30,6 @@ p {
 #top-container {
     width: 100%;
     min-height: 80vh;
-    margin: 0;
     padding-top: 100px;
 }
 
@@ -43,7 +42,12 @@ p {
 
 #about {
     margin: 0;
-    padding: 53px 0 150px 0;
     width: 100%;
     min-height: 100vh;
+}
+
+.insider {
+    width: 50%;
+    margin: auto;
+    padding: 53px 0 150px 0;
 }
