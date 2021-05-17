@@ -17,22 +17,21 @@ body {
 h1, h2 {
     font-family: 'Caveat', cursive;
     font-size: 4.1em;
-    margin-bottom: 0;
+    margin: 0;
     font-weight: normal;
 }
 
 p {
     padding-right: 200px;
     padding-left: 200px;
+    text-align: left;
 }
 
 #top-container {
     width: 100%;
-    height: 100%;
     min-height: 100vh;
     margin: 0;
-    padding: 100px 0 350px 0;
-
+    padding-top: 100px;
 }
 
 .name {
@@ -44,7 +43,7 @@ p {
 
 #about {
     margin: 0;
-    padding: 10px 0 150px 0;
+    padding: 53px 0 150px 0;
     width: 100%;
     min-height: 100vh;
 }
