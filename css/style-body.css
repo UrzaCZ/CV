@@ -62,10 +62,11 @@ p {
 }
 
 
-.footer-text{
+.footer-text {
     margin-bottom: 25px;
     font-size: 1rem;
     color: darkgray;
+    text-align: center;
 }
 
 .footer-links a {
