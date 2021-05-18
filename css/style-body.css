@@ -24,10 +24,10 @@ h1, h2 {
 }
 
 p {
-    padding-right: 200px;
-    padding-left: 200px;
+    width: 60%;
     text-align: left;
     line-height: 1.6rem;
+    margin: auto;
 }
 
 .insider {
@@ -60,7 +60,6 @@ p {
     color: limegreen;
     margin-top: 0;
 }
-
 
 .footer-text {
     margin-bottom: 25px;
