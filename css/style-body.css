@@ -64,6 +64,8 @@ p {
 
 .footer-text{
     margin-bottom: 25px;
+    font-size: 1rem;
+    color: darkgray;
 }
 
 .footer-links a {
