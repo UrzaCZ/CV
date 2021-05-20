@@ -3,25 +3,35 @@
 
 <head>
    <meta charset="utf-8"/>
-   <link rel="stylesheet" href="css/style-menu.css">
-   <link rel="stylesheet" href="css/style-body.css">
-   <link rel="icon" href="Resource/geek.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Resource/geek.png">
     <!-- Písmo embaded from Google-->
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&family=Pacifico&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&family=Pacifico&display=swap" rel="stylesheet">
+   <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-menu.css">
+    <link rel="stylesheet" href="css/style-body.css">
     <title>Daniel Tocháček</title>
 </head>
 
 <body>
-<div id="header">
-    <nav>
-        <a href="#top-container"><img class = "avatar" src="Resource/avatar.png" alt="me-avatar"/></a>
-        <ul class="menu-navigation">
-            <li><a href="#skills">DOVEDNOSTI</a></li>
-            <li><a href="#about">O MĚ</a></li>
-            <li><a href="#contact">KONTAKT</a></li>
-        </ul>
+<header>
+    <!--Nav Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:limegreen;">
+        <a class="navbar-brand" href="#top-container"><img class="avatar" src="Resource/avatar.png" alt="me-avatar"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+                <li><a class="nav-li" aria-current="page" href="#skills">DOVEDNOSTI</a></li>
+                <li class="nav-item"><a class="nav-li" aria-current="page" href="#about">O MĚ</a></li>
+                <li class="nav-item"><a class="nav-li" aria-current="page" href="#contact">KONTAKT</a></li>
+            </ul>
+        </div>
     </nav>
-</div>
+</header>
+
 <div id="top-container">
     <div class="insider">
         <h1>Ahoj, jmenuji se</h1>
@@ -29,10 +39,10 @@
         <h1> a jsem Java, JavaScript developer</h1>
     </div>
 </div>
-   
+
 <div id="skills">
     <div class="insider">
-      <h2>Dovednosti</h2>
+        <h2>Dovednosti</h2>
     </div>
     <p>Pellentesque sapien. Nulla non lectus sed nisl molestie malesuada. Nulla accumsan, elit sit amet varius semper,
         nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Neque porro quisquam est, qui dolorem ipsum quia
@@ -44,46 +54,47 @@
         interdum. Mauris metus. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores
         alias consequatur aut perferendis doloribus asperiores repellat. Morbi imperdiet, mauris ac auctor dictum, nisl ligula
         egestas nulla, et sollicitudin sem purus in lacus.</p>
-</div>   
-   
+</div>
+
 <div id="about">
     <div class="insider">
         <h2>O mně</h2>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer in sapien. Morbi leo mi, nonummy eget tristique non,
-        rhoncus non leo. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Nemo enim ipsam voluptatem quia
-        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-        Nulla pulvinar eleifend sem. Aliquam in lorem sit amet leo accumsan lacinia. Aliquam ante. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos hymenaeos. Nullam eget nisl. Ut enim ad minima veniam, quis nostrum exercitationem
-        ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-        aliquam quaerat voluptatem. Sed convallis magna eu sem. </p>
+    <p>Ahoj! Jmenuji se Daniel Tocháček, full-stack vývojář z Pardubic. Po vysokoškolském studiu jsem pracoval téměř osm let jako
+       administrativní pracovník a bohužel mě možnosti této práce nenaplňovali. Když jsem přemýšlel co dál, tak jsem si říkal, že
+       bych mohl  skloubit svojí vášeň pro moderní technologie s IT. A Právě, protože jsem šel cestou samostudia, o to víc jsem musel
+       usilovněji přemýšlet a hledat řešení nad každým úkolem, který předemne Java postavila. Nejen díky tomu jsem se velmi nadchl pro
+       tento jazyk, programování mě začalo bavit a zajímat stále více. Proto jsem se rozhodl dále v této oblasti rozvíjet i
+       po profesionální stránce, a i když se učím novým věcem, stavím se výzvám čelem.
+    </p>
 </div>
 
 <div id="contact">
     <div class="insider">
         <h2>Kontakt</h2>
     </div>
-    <p>Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Vivamus luctus egestas leo. Fusce aliquam vestibulum
-        ipsum. Ut tempus purus at lorem. Fusce tellus. Nullam sit amet magna in magna gravida vehicula. Aliquam erat volutpat.
-        Vestibulum fermentum tortor id mi. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. In dapibus augue non sapien.
-        Maecenas aliquet accumsan leo. Maecenas sollicitudin. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas
-        nulla, et sollicitudin sem purus in lacus. Mauris tincidunt sem sed arcu. Aliquam erat volutpat. Phasellus enim erat,
-        vestibulum vel, aliquam a, posuere eu, velit. Fusce nibh. Mauris metus. Nullam rhoncus aliquam metus. Nemo enim ipsam
-        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt.</p>
+    <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer in sapien. Morbi leo mi, nonummy eget tristique non,
+        rhoncus non leo. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Nemo enim ipsam voluptatem quia
+        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        Nulla pulvinar eleifend sem. Aliquam in lorem sit amet leo accumsan lacinia. Aliquam ante. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos hymenaeos. Nullam eget nisl. Ut enim ad minima veniam, quis nostrum exercitationem
+        ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Neque porro quisquam est, qui dolorem ipsum
+        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+        aliquam quaerat voluptatem. Sed convallis magna eu sem.
+    </p>
 </div>
-   
+
 <footer class="footer">
     <div class="footer-links">
-        <a href="mailto:daniel.tochacek@gmail.com" target="_blank"><img src="Resource/email.png" alt="email-me"></a>
+        <a href="mailto:daniel.tochacek@gmail.com" target="_blank"><img src="../Resource/email.png" alt="email-me"></a>
         <a href="https://www.linkedin.com/in/daniel-toch%C3%A1%C4%8Dek-37b41951/" target="_blank">
-            <img src="Resource/linkedin.png" alt="Linked-in"></a>
-        <a href="https://github.com/UrzaCZ" target="_blank"><img src="Resource/github.png" alt="Github"></a>
+            <img src="../Resource/linkedin.png" alt="Linked-in"></a>
+        <a href="https://github.com/UrzaCZ" target="_blank"><img src="../Resource/github.png" alt="Github"></a>
     </div>
-    <p class="footer-text">&copy; 2021 by Daniel Tocháček</p>
+    <p class="footer-text">&copy;2021 by Daniel Tocháček
+    </p>
 </footer>
-   
+
 </body>
 
 </html>
