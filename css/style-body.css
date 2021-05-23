@@ -50,12 +50,12 @@ p {
 .insider {
     width: 50%;
     margin: auto;
-    padding-top: 53px;
+    padding: 5.0rem 0 5.0rem 0;
 }
 
 #top-container {
-    min-height: 80vh;
-    padding-top: 100px;
+    min-height: 90vh;
+    padding-top:6.25rem;
 }
 
 #skills {
@@ -92,29 +92,17 @@ p {
     margin: 15px;
 }
 
-
-#header {
-    position: fixed;
-    background-color: #fcf8e8;
-    height: 70px;
-    width: 100%;
-}
-
 .avatar {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    left: 10px;
+}
+.nav-ul{
+    padding-right: 15px;
 }
 
-.menu-navigation {
-    width: 600px;
-    padding: 0 60px;
-    line-height: 0.5rem;
-}
-.nav-ul {
-    margin-top: 20px;
-    float: right;
+.a-brand{
+    padding-left: 15px;
 }
 
 .nav-li {
@@ -122,21 +110,9 @@ p {
     text-decoration: none;
     color: black;
     padding: 0.5rem;
-    font-size: inherit;
-    font-family: inherit;
 }
 
 .nav-li:hover {
     color: black;
     text-decoration: underline black;
-}
-
-.menu-navigation a {
-    justify-content: space-between;
-    display: inherit;
-    text-decoration: none;
-    color: black;
-    align-items: center;
-    font-size: inherit;
-    font-family: inherit;
 }
