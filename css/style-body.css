@@ -1,25 +1,26 @@
 html {
     scroll-behavior: smooth;
-    padding: 0;
-    margin: 0;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #fcf8e8;
-    text-align: center;
+    background-color: #fff;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100vh;
     font-size: 1.1em;
+    text-align: center;
+}
+
+.a-brand{
+    padding-left: 10%;
 }
 
 .avatar {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    left: 10px;
 }
 
 .nav-li {
@@ -33,6 +34,10 @@ body {
     text-decoration: underline black;
 }
 
+.nav-ul{
+    padding-right: 10%;
+}
+
 h1, h2 {
     font-family: 'Caveat', cursive;
     font-size: 4.1em;
@@ -40,38 +45,36 @@ h1, h2 {
     font-weight: normal;
 }
 
-p {
-    width: 60%;
-    text-align: left;
-    line-height: 1.8rem;
-    margin: auto;
+.class-title {
+    color: #6b8778;
+    font-weight: bolder;
+    padding-bottom: 5.0rem;
 }
 
 .insider {
     width: 75%;
     margin: auto;
-    padding: 5.0rem 0 5.0rem 0;
+    padding: 5.0rem 0;
 }
 
+.text-about {
+    background-color: #DDEDE2;
+    padding: 10% 10% 14%;
+    text-align: left;
+}
 #top-container {
     width: 100%;
-    min-height: 100vh;
-    padding-top:6.25rem;
+    padding:6.25rem 0 6.25rem;
 }
 
 #portfolio {
     padding-bottom: 100px;
     margin: auto;
-    width: 75%;
 }
 
-.portfolio-img {
-    float: left;
-    margin: 25px 50px;
-}
-
-.portfolio-text {
-    width: 90%;
+.about-img {
+    border-radius: 10%;
+    width: 80%;
 }
 
 #skills {
@@ -79,8 +82,8 @@ p {
 }
 
 #about {
-    margin: 0;
-    padding-bottom: 100px;
+    margin: auto;
+    padding: 6.25rem 0 100px;
 }
 
 #contact {
@@ -90,7 +93,7 @@ p {
 .name {
     font-family: 'Pacifico', cursive;
     font-size: 6.3rem;
-    color: limegreen;
+    color: #85a18e;
     margin-top: 0;
 }
 
@@ -108,27 +111,10 @@ p {
     margin: 15px;
 }
 
-.avatar {
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-}
-.nav-ul{
-    padding-right: 15px;
+.carousel {
+    height: 100%;
 }
 
-.a-brand{
-    padding-left: 15px;
-}
-
-.nav-li {
-    justify-content: right;
-    text-decoration: none;
-    color: black;
-    padding: 0.5rem;
-}
-
-.nav-li:hover {
-    color: black;
-    text-decoration: underline black;
+.portfolio-resources {
+    margin-bottom: 7%;
 }
